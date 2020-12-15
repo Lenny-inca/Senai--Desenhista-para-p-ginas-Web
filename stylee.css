@@ -1,82 +1,117 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900'); /* Importando fonte*/
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
 
 *{
     margin: 0;
-    padding: 0;
-}
+    padding: 0; 
+ }
 
-body{
-    background-color: #f0f0f0; /* Altera a cor do fundo da página */
+ body{
+    background-color: bisque;
 }
 
 .container{
-    font-family: 'Lato', sans-serif; /* Altera a fonte do container */
-    width: 70%; /* Altera o container para ocupar 70% da página */
-    margin: 0 auto; /* Posiciona o container no centro da página */
+    font-family: 'Lato', sans-serif;
+    width: 70%;
     background-color: white;
-    border-radius: 20px; /* Arredonda os cantos */
-    padding: 20px; /* Espaçamento interno */
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+header{
+    height: 250px;
+    background-image: url(./pudim.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 30px;
 }
 
 h1{
-    font-size: 32px; /* Altera o tamanho da fonte */
-    color: #ff6a28; /* Alter a cor do texto */
-    font-weight: 300; /* Altera o peso da fonte */
-    margin-bottom: 20px; /* Altera a margin de baixo */
+color: #ff6a28;
+font-size: 32px;
+font-weight: 300;
+padding-top: 20px;
+padding-left: 20px;
 }
 
 h2{
-    font-size: 20px;
-    text-align: center; 
-    color: #ff6a28;
-    font-weight: 400;
+font-size: 20px;
+font-weight: 400;
+text-align: center;
+color: #ff6a28;
+height: 40px;
+
 }
 
 h3{
-    font-size: 15px;
-    text-align: center;
-    color: #7a7a7a;
-    font-weight: bold;
-    background-color: #f0f0f0;
-    padding: 15px 0;
-    width: 100%;
-    margin: 10px 0
+font-size: 15px;
+text-align: center;
+color: #7a7a7a;
+font-weight: bold;
+background-color: #f0f0f0;
+padding: 15px 0;
+
 }
 
 h1, h2, h3{
-    text-transform: uppercase; /* Transforma tudo para maiusculo */
+    text-transform: uppercase;
 }
 
-li,
-p{
+li, p{
     font-size: 15px;
-    font-weight: 300; 
-    line-height: 35px; 
-    margin-left: 50px;
+    font-weight: 300;
+    line-height: 35px;margin-left: 30px;
+    height: 40PX;
 }
 
-span{
-    background-color: #ff6a28;
-    border-radius: 30px;
-    /* padding: 15px 30px; */
+.desforma{
+    height: 60px;
+}
+
+span{ 
+    background: #ff6a28;
+    border-radius: 35px;
+    /*padding: 15px 30px;*/
+    margin-right: 15px;
     height: 60px;
     width: 150px;
+    display: inline-block;
     text-align: center;
     padding-top: calc(25px - 10px);
-    margin-right: 15px;
-    margin-bottom: 20px;
-    display: inline-block;
     box-sizing: border-box;
+   margin-bottom: 20px;
+
 }
 
 span a{
-    color: #ffffff;
+    color: white;
     text-decoration: none;
     font-weight: 700;
     font-size: 20px;
-    
+    margin-top: 30px;
+    /*line-height: 80px;*/
+
 }
 
-#categoria{
-    margin: 50px;
+.categorias{
+    margin-bottom: 50px;
+    
+}
+.centralizado{
+    height: 200px;
+    width: 95%;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+span{
+    height: 40px;
+    text-align: center;
+    padding-top: 8px;
 }
